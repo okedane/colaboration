@@ -25,3 +25,6 @@ Route::get('/detail', function () {
 Route::get('/opickhahahah', function () {
     return view('opick');
 });
+Route::get('/sasa', function () {
+    return view('saas');
+});
