@@ -23,6 +23,3 @@ Route::get('/detail', function () {
     return view('detail');
 });
 
-Route::get('/dani', function () {
-    return view('dani');
-});
