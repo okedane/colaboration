@@ -20,11 +20,5 @@ Route::get('/home', function () {
     return view('home');
 });
 
-Route::get('/ujan', function () {
-    return view('ujan');
-});
 
-Route::get('/opik', function () {
-    return view('home');
-});
 
