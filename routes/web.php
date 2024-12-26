@@ -28,3 +28,7 @@ Route::get('/opik', function () {
     return view('home');
 });
 
+Route::get('/uuuu', function () {
+    return view('uuu');
+});
+
