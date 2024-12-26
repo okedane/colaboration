@@ -22,3 +22,7 @@ Route::get('/home', function () {
 Route::get('/detail', function () {
     return view('detail');
 });
+
+Route::get('/checout', function () {
+    return view('detail');
+});
