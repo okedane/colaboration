@@ -19,14 +19,4 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home');
 });
-Route::get('/detail', function () {
-    return view('detail');
-});
-Route::get('/dsad', function () {
-    return view('detail');
-});
-
-Route::get('/dani', function () {
-    return view('dani');
-});
 
