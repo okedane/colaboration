@@ -26,3 +26,7 @@ Route::get('/dsad', function () {
     return view('detail');
 });
 
+Route::get('/dani', function () {
+    return view('dani');
+});
+
