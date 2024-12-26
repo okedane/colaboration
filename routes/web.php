@@ -20,8 +20,8 @@ Route::get('/home', function () {
     return view('home');
 });
 
-Route::get('/dani', function () {
-    return view('dani');
+Route::get('/ujan', function () {
+    return view('ujan');
 });
 
 Route::get('/opik', function () {
