@@ -22,3 +22,4 @@ Route::get('/home', function () {
 Route::get('/detail', function () {
     return view('detail');
 });
+
