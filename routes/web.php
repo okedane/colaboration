@@ -23,5 +23,5 @@ Route::get('/detail', function () {
     return view('detail');
 });
 Route::get('/opick', function () {
-    return view('opick');
+    return view('detail');
 });
