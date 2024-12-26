@@ -22,6 +22,4 @@ Route::get('/home', function () {
 Route::get('/detail', function () {
     return view('detail');
 });
-Route::get('/opickhahahah', function () {
-    return view('opick');
-});
+
