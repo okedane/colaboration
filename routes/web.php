@@ -19,4 +19,6 @@ Route::get('/', function () {
 Route::get('/home', function () {
     return view('home');
 });
-
+Route::get('/dani', function () {
+    return view('dani');
+});
